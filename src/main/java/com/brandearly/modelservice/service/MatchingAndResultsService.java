@@ -1,7 +1,8 @@
-package com.brandearly.modelservice.Service;
+package com.brandearly.modelservice.service;
 
 /**
- * Created by shikhar on 2015-02-17.
+ * Created by shikhar on 2015-02-18.
  */
-public interface MatchingandResultsService {
+public interface MatchingAndResultsService {
+    public void matchingService();
 }
