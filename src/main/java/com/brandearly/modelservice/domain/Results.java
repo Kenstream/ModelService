@@ -30,11 +30,14 @@ public class Results {
     public void setyAxisScore(int score){
         this.yAxisScore=score;
     }
-    public void setzAxisRecommendations(List<String> reco) {
-        this.zAxisRecommendations = reco;
+    public void setxAxisRecommendations(List<String> recommendations)  {
+        this.xAxisRecommendations=recommendations;
     }
-    public void setyAxisRecommendations(List<String> reco){
-        this.yAxisRecommendations=reco;
+    public void setzAxisRecommendations(List<String> recommendations)  {
+        this.zAxisRecommendations = recommendations;
+    }
+    public void setyAxisRecommendations(List<String> recommendations){
+        this.yAxisRecommendations=recommendations;
     }
 
     public void setzAxisScore(int score){
