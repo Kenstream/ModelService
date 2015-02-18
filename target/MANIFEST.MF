@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: ModelService
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: shikhar
+Implementation-Vendor-Id: com.brandearly
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_31
+Main-Class: demo.ModelServiceApplication
+
