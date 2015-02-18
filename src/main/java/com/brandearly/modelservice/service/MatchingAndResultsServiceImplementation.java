@@ -12,20 +12,24 @@ public class MatchingAndResultsServiceImplementation {
 
     public Results matchingService(Long proModelId, StudentProfile studentProfile){
         Results results = new Results();
-
+        ProModel proModel = getProModelFromDB(proModelId);
 
 
 
 
         return results;
     }
+
+
     private ProModel getProModelFromDB(Long proModelId){
         ProModel model = new ProModel();
         //To Do: Fetch ProModel from Database
         return model;
     }
 
-    
+
+
+
 
 
 }
